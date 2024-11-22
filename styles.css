@@ -42,11 +42,19 @@ body, h1, h2, h3, p, ul {
 /* Hero Section */
 .hero-section {
     margin-top: 50px;
-    height: 400px;
+    height: 500px;
     position: relative;
     overflow: hidden;
 }
 
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  
+   height: 600px;
+}
 
 /* Products Section */
 .products-section {
