@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Mac book The Gadget Pocket</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+     .product-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 264px;
+    object-fit: cover;
+}
+
+        .product-section {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">The Gadget Pocket</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+ <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="macbook.html">Mac Book</a></li>
+            <li><a class="dropdown-item" href="imac.html">Imac</a></li>
+            <li><a class="dropdown-item" href="ipad.html">Ipad</a></li>
+          </ul>
+        </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Filter Section -->
+    <section class="container my-4">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="mb-3">Our Products</h1>
+             <div class="filter-options">
+                <label for="price-filter">Sort by price:</label>
+                <select id="price-filter">
+                    <option value="low-to-high">Low to High</option>
+                    <option value="high-to-low">High to Low</option>
+                </select>
+            </div>        </div>
+    </section>
+
+    <!-- Product Sections -->
+    <div class="container">
+        <!-- MacBook Section -->
+        <div class="product-section">
+            <h2 class="mb-4">MacBook</h2>
+
+
+<div id="macbook-list" class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+     <div class="card product-card" data-price="2499">
+                        <img src="p1i.jpg" class="card-img-top " alt="MacBook Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook Pro 16-inch</h5>
+                            <p class="card-text">$2,499</p>
+                            <p class="card-text">The ultimate laptop for professionals.</p>
+                        </div>
+                    </div>
+
+  </div>
+ <div class="col">
+     <div class="card product-card" data-price="2532">
+                        <img src="p1ii.jpg" class="card-img-top" alt="MacBook Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook Pro 16-inch</h5>
+                            <p class="card-text">$2,532</p>
+                            <p class="card-text">The ultimate laptop for professionals.</p>
+                        </div>
+                    </div>
+
+  </div>
+ <div class="col">
+    <div class="card product-card" data-price="1670">
+                        <img src="p1iii.jpg" class="card-img-top" alt="MacBook Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook Pro 16-inch</h5>
+                            <p class="card-text">$1,670</p>
+                            <p class="card-text">The ultimate laptop for professionals.</p>
+                        </div>
+                    </div>
+
+  </div>
+ <div class="col">
+    <div class="card product-card" data-price="1870">
+                        <img src="p1iv.jpg" class="card-img-top" alt="MacBook Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook Pro 16-inch</h5>
+                            <p class="card-text">$1,870</p>
+                            <p class="card-text">The ultimate laptop for professionals.</p>
+                        </div>
+                    </div>
+
+  </div>
+ <div class="col">
+    <div class="card product-card" data-price="2543">
+                        <img src="p1v.jpg" class="card-img-top" alt="MacBook Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook Pro 16-inch</h5>
+                            <p class="card-text">$2,543</p>
+                            <p class="card-text">The ultimate laptop for professionals.</p>
+                        </div>
+                    </div>
+
+  </div>
+ <div class="col">
+     <div class="card product-card" data-price="1489">
+                        <img src="p1vi.jpg" class="card-img-top" alt="MacBook Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook Pro 16-inch</h5>
+                            <p class="card-text">$1,489</p>
+                            <p class="card-text">The ultimate laptop for professionals.</p>
+                        </div>
+                    </div>
+
+  </div>
+
+
+
+             </div>
+        </div>
+
+                   </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 The Gadget Pocket. All Rights Reserved.</p>
+    </footer>
+
+   
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Filter Script -->
+<!-- Filter Script -->
+    <script>
+        const priceFilter = document.getElementById('price-filter');
+        const productSections = document.querySelectorAll('[id$="-list"]');
+
+        priceFilter.addEventListener('change', () => {
+            const sortOrder = priceFilter.value;
+
+            productSections.forEach(section => {
+                const products = Array.from(section.getElementsByClassName('col'));
+
+                products.sort((a, b) => {
+                    const priceA = parseInt(a.querySelector('.product-card').getAttribute('data-price'), 10);
+                    const priceB = parseInt(b.querySelector('.product-card').getAttribute('data-price'), 10);
+                    return sortOrder === 'low-to-high' ? priceA - priceB : priceB - priceA;
+                });
+
+                section.innerHTML = '';
+                products.forEach(product => section.appendChild(product));
+            });
+        });
+    </script>
+
+</body>
+</html>
